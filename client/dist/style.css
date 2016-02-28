@@ -1,0 +1,127 @@
+
+  .ge-file-group {
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+
+  }
+
+  .ge-file-group input[type=text].ge-file-field {
+    display: inline-block;
+    width: 60%;
+    height: inherit;
+    float: left;
+  }
+
+  .ge-input-group-label {
+    display: inline-block;
+    width: 40%;
+    height: inherit;
+    float: left;
+  }
+
+  .ge-file-warp {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    width: 100%;
+    height: 32px;
+  }
+
+  .ge-file {
+    width: 100%;
+    height: 32px;
+  }
+
+  .ge-file-warp .ge-file {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  .ge-file-warp:hover {
+    text-decoration: none;
+  }
+#ge-nav .am-nav {
+  border: 1px solid #ddd;
+}
+
+  .am-pagination {
+    margin: 0.5rem 0;
+  }
+
+  .am-pagination > li > a {
+    margin-bottom: 0;
+  }
+
+  .am-table > tfoot > tr > td {
+    padding: 0 .5rem;
+  }
+
+  .ge-search-warp {
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+
+  }
+
+  .ge-search-warp .ge-search-field {
+    display: inline-block;
+    width: 60%;
+    height: inherit;
+    line-height: 1.5rem;
+    vertical-align: middle;
+    float: left;
+  }
+
+  .ge-input-search-label {
+    display: inline-block;
+    width: 40%;
+    height: inherit;
+    float: left;
+  }
+
+  .ge-input-search-label button {
+    height: inherit;
+  }
+
+
+  .ge-multi {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .ge-multi ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ge-multi li {
+    border-top: 1px solid #ddd;
+  }
+
+  .ge-multi li:first-child {
+    border-top-width: 0;
+  }
+
+  .ge-multi a {
+    display: block;
+    padding: 6px 20px;
+    font-weight: 400;
+    color: #333;
+    white-space: nowrap
+  }
+
+  .ge-multi .am-active a {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #0e90d2
+  }
+
+  #bd-warp {
+    min-width: 1000px;
+  }
