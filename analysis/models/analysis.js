@@ -9,12 +9,12 @@ module.exports = function (Analysis) {
     var token = url.substring(url.lastIndexOf("/") + 1, url.length);
     var App = tools.getModelByName("App");
 
-    res.send({
-      token: token,
-      url: req.url,
-      Referrer: req.get("Referrer"),
-      ip: req.ip
-    });
+    res.send('var analysis=' + JSON.stringify({
+        token: token,
+        url: req.url,
+        Referrer: req.get("Referrer"),
+        ip: req.ip
+      }));
 
     App.findOne({
       where: {
