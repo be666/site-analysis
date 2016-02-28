@@ -1,5 +1,5 @@
 module.exports = {
-  "apiUrl": "http://0.0.0.0:3000/api",
+  "apiUrl": "/api",
   "uploadUrl": "/fileUpload",
   "auth": {
     "ignoreAll": false,
